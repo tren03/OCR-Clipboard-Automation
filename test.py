@@ -4,7 +4,7 @@ from PIL import ImageGrab
 import os
 
 
-print("Starting...")
+# print("Starting...")
 
 # Grab image from clipboard
 im = ImageGrab.grabclipboard()
@@ -28,11 +28,11 @@ if im is not None:
     f.write(extracted_text)
     f.close()
 
-    os.system("notepad.exe converted.txt")
+    os.system("gedit converted.txt")
     
     # Print the extracted text
-    print("Extracted text:")
-    print(extracted_text)
+    # print("Extracted text:")
+    # print(extracted_text)
 
 else:
     print("No image found on the clipboard.")
