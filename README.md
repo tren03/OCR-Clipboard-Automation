@@ -18,6 +18,8 @@ This Python script captures an image from the clipboard, performs Optical Charac
 - EasyOCR
 - Pillow
 - gedit (default text editor on many Linux distributions)
+- xclip - linux
+- gnome-screenshot - linux
 
 ## Installation
 
