@@ -37,11 +37,11 @@ This Python script captures an image from the clipboard, performs Optical Charac
 
     ```sh
     ocrauto() {
-    TEMP_FILE=$(mktemp /tmp/screenshot-XXXXXX.png)
-    gnome-screenshot -a -f "$TEMP_FILE"
-    xclip -selection clipboard -t image/png -i "$TEMP_FILE"
-    rm "$TEMP_FILE"
-    python3 <path to main.py file of this rep>
+        TEMP_FILE=$(mktemp /tmp/screenshot-XXXXXX.png)
+        gnome-screenshot -a -f "$TEMP_FILE"
+        xclip -selection clipboard -t image/png -i "$TEMP_FILE"
+        rm "$TEMP_FILE"
+        python3 <path to main.py file of this rep>
     }
     ```
 3. **Update bashrc:**
