@@ -27,7 +27,7 @@ This Python script captures an image from the clipboard, performs Optical Charac
 
     ```sh
     git clone https://github.com/tren03/ocrauto
-    cd clipboard-image-to-text
+    cd ocrauto
     ```
 
 2. **Install the required Python packages:**
